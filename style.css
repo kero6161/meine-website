@@ -1,0 +1,74 @@
+/* Grunddesign */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f8fa;
+  color: #222;
+}
+
+/* Header / Navigation */
+nav {
+  background-color: #6da9ff;       /* helles Blau */
+  padding: 10px;
+  text-align: left;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  opacity: 0.8;
+}
+
+/* Überschriften */
+h1 {
+  color: #b85c5c;                  /* helles Bordeaux */
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Inhalt zentriert */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Formulare (Kontakt) */
+input, textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #b85c5c;       /* Bordeaux Button */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a14848;       /* dunklerer Ton */
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #555;
+}
+.logo {
+  height: 180px;       
+  vertical-align: middle;
+  margin-right: 60px;
+}
